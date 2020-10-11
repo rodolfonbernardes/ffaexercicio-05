@@ -1,0 +1,5 @@
+<article>
+  <h1>Movies App</h1>
+  <input type="text" placeholder="Search" #search (keyup)="0">
+  <app-movie-list [filter]="search.value"></app-movie-list>
+</article>

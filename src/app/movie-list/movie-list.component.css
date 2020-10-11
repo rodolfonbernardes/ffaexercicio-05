@@ -1,0 +1,7 @@
+article {
+  display: flex;
+}
+
+app-movie-item {
+  margin: 10px;
+}
